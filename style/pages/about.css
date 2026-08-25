@@ -1,0 +1,142 @@
+@import url(/style/main.css);
+
+body {
+    background-color: var(--light-gray)
+}
+
+img {
+    width: 100%;
+}
+
+.hero {
+    background-image: url(/images/hero2-bgr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    padding: 20px;
+}
+
+.hero h1 {
+    max-width: 600px;
+}
+
+.hero p,
+.hero p a {
+    max-width: 640px;
+    text-align: start;
+    color: var(--white);
+}
+
+.concierge-experience-technology .box {
+    max-width: 1152px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.concierge-experience-technology {
+    margin-top: 120px;
+    padding: 20px;
+}
+
+.concierge-experience-technology .left {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.concierge-experience-technology .right {
+    width: 46%;
+    background-color: var(--white);
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.concierge-experience-technology .left-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.concierge-experience-technology .left .p {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--gray);
+}
+
+/* -------------------meet-the-team---------------------- */
+.meet-the-team {
+    margin-top: 240px;
+}
+
+.meet-the-team .box {
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.meet-the-team h2 {
+    text-align: center;
+}
+
+.meet-the-team .items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.meet-the-team .item {
+    padding: 24px;
+    background-color: var(--white);
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.3) 100%);
+    border: 2px solid var(--white);
+    transition: 0.5s;
+}
+
+.meet-the-team .item .img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meet-the-team .item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.meet-the-team .item .text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+}
+
+.meet-the-team .item p.text {
+    font-style: italic
+}
+
+.meet-the-team .item .text li::marker,
+li,
+p {
+    color: var(--gray);
+}
+
+.meet-the-team .item .text .text2 {
+    font-size: 16px;
+    padding: 0 16px 0 20px;
+    border-left: 3px solid var(--blue);
+}

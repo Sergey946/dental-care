@@ -1,0 +1,6 @@
+@media (max-width:480px) {
+    .left-right .left,
+    .left-right .right1{
+        width: 100% !important;
+    }
+}

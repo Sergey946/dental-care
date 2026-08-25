@@ -1,0 +1,93 @@
+@import url(/style/media/globals/header.css);
+@import url(/style/media/globals/footer.css);
+@import url(/style/media/globals/visit-us.css);
+@import url(/style/media/globals/incurance-no-surpises.css);
+@import url(/style/media/globals/slider.css);
+@import url(/style/media/globals/cta.css);
+@import url(/style/media/pages/home.css);
+@import url(/style/media/pages/the-clinic.css);
+@import url(/style/media/pages/career.css);
+@import url(/style/media/pages/price-guide.css);
+@import url(/style/media/pages/contact.css);
+@import url(/style/media/pages/service.css);
+@import url(/style/media/pages/patient-comfort.css);
+
+
+
+@media (min-width:1025px) {
+    h1 {
+        font-size: 62px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+
+
+}
+
+
+
+@media (max-width:1024px) and (min-width:769px) {
+    h1 {
+        font-size: 54px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:768px) and (min-width:481px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:480px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+}

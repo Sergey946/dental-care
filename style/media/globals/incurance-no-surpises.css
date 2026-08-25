@@ -1,0 +1,21 @@
+
+@media (max-width:1024px) {
+      .insurance-no-surprises .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .insurance-no-surprises .left,
+    .insurance-no-surprises .right{
+        width: 100%;
+    }
+}
+@media (max-width:769px) {
+    .insurance-no-surprises .left .text .h2-p h2{
+        font-size: 31px;
+    }
+}
+@media (max-width:480px) {
+    .insurance-no-surprises .right a.btn{
+        display: none;
+    } 
+}

@@ -1,0 +1,265 @@
+@media (max-width:1024px) {
+    .mobile-menu{
+        visibility: visible !important;
+    }
+}
+.mobile-menu .box {
+    max-width: 937px;
+    margin: 0 auto;
+}
+
+.mobile-menu {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 10px;
+    z-index: 4;
+    
+    visibility: hidden;
+}
+
+.mobile-menu .menu {
+    display: flex;
+}
+
+.mobile-menu div.btn {
+    border-radius: 0 8px 8px 0;
+    padding: 5px;
+    background: #ffffff;
+}
+
+.mobile-menu .menu a.tel,
+.mobile-menu .menu .humburger-menu {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #EEEEEE;
+    background-color: var(--white);
+}
+
+.mobile-menu .menu div.btn a.btn {
+    border-radius: 0;
+}
+
+#humburger-menu {
+    padding: 26px;
+    border-radius: 8px 0 0px 8px;
+    background-color: var(--white);
+}
+
+.question input {
+    display: none;
+}
+
+.question label {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.nav {
+    transition: 0.6s ease;
+    background-color: white;
+    left: 0;
+    top: 0;
+    width: 100px;
+}
+
+.question svg {
+    transform: rotate(45deg);
+}
+
+.question:has(input:checked) svg {
+    transform: rotate(0);
+}
+
+.mobile-menu .menu #humburger-menu label input {
+    display: none;
+    visibility: visible;
+}
+
+.mobile-menu .menu #humburger-menu label:has(input:checked) .nav {
+    /* display: block !important; */
+    left: 100%;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0) !important;
+}
+
+#popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.224);
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease;
+}
+
+#popup .box {
+    max-width: 419px;
+    background-color: var(--white);
+    height: 100%;
+    transform: translateX(-100%);
+    transition: 0.3s ease;
+}
+
+body:has(#mobile-checkbox:checked) #popup {
+    opacity: 1;
+    visibility: visible;
+}
+
+body:has(#mobile-checkbox:checked) #popup .box {
+    transform: translateX(0);
+}
+
+#popup .crose {
+    /* display: none; */
+    /* visibility: visible; */
+    appearance: none;
+    background-image: url(/images/crose.svg);
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#popup .box {
+    display: flex;
+    flex-direction: column;
+}
+
+#popup .nav .dropdown {
+    width: 100%;
+}
+
+#popup .top {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+#center {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+}
+
+#center .question input {
+    display: none;
+}
+
+#center .question label {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+#center .question {
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+#center .question:has(input:checked) label {
+    background-color: rgba(26, 162, 186, 0.08);
+}
+
+#center .question:has(input:checked)+.answer {
+    min-height: fit-content;
+}
+
+#center .question img {
+    /* transform: rotate(45deg); */
+    width: 19.9884px;
+}
+
+#center .question:has(input:checked) img {
+    transform: rotate(-180deg);
+}
+
+#center .question img {
+    transition: 0.6s ease;
+}
+
+#center .answer {
+    transition: 1s ease;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+#center .faq {
+    overflow: hidden;
+}
+
+#center .answer {
+    display: flex;
+    flex-direction: column;
+}
+
+#center .faq .answer .row {
+    width: 100%;
+    padding: 20px;
+    background-color: #fafafa;
+    border-top: 1px solid #00000029;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#center a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--black);
+}
+
+#center .faq label {
+    border-top: 1px solid #00000029;
+}
+
+#center .faq .answer .row img {
+    width: 10px;
+}
+
+#popup .bottom a.tel {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-left: 1px solid #EEEEEE;
+    background-color: var(--white);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--blue);
+    width: 49%;
+}
+
+#popup .bottom a.tel img {
+    width: 17px;
+}
+
+#popup .bottom {
+    display: flex;
+    background-color: var(--blue);
+    outline: 5px solid rgba(27, 163, 187, 0.2);
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    width: 98%;
+}
+
+#popup .bottom a.btn-secondary {
+    border-radius: 0;
+    outline: 0;
+}

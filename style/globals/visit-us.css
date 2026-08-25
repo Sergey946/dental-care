@@ -1,0 +1,104 @@
+.visit-us {
+    background-color: var(--white);
+    padding: 120px 20px;
+    position: relative;
+}
+
+.visit-us .box {
+    max-width: 1152px;
+    position: relative;
+    margin: 0 auto;
+    height: fit-content;
+}
+
+.visit-us .h2-p p.text {
+    color: var(--gray);
+    max-width: 745px;
+}
+
+#map {
+    background: #fff;
+    border: 0;
+    width: 100%;
+}
+
+#map iframe {
+    width: 100%;
+    border: 0;
+    position: relative;
+    z-index: 1;
+}
+.visit-us .iframe{
+    display: flex;
+    justify-content: space-between;
+}
+.visit-us .item .top img,
+.visit-us .item2  img{
+    width: 40px;
+}
+
+.visit-us .item .top {
+    padding: 60px 60px 40px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.visit-us .item {
+    width: 66%;
+    height: 447px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.09) 0%, #F1F2F2 56.14%);
+    border-radius: 12px;
+}
+
+.visit-us .item .bottom {
+    bottom: 0;
+}
+
+.visit-us .iframe .item .top a{
+    color: var(--blue);
+    text-decoration: none;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--blue);
+}
+.visit-us .iframe .item .top .p-a{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.visit-us .iframe .item2{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.09) 0%, #F1F2F2 56.14%);
+    padding: 60px 40px;
+    gap: 16px;
+    width: 31%;
+}
+.visit-us .iframe .item2 p.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0 6px 8px;
+}
+.visit-us .iframe .item2 p.text2{
+    border: 0;
+}
+.visit-us .opening-hours{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.visit-us .iframe .item2 .row{
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+}
+.visit-us .iframe .item2 .row2 p.text{
+    color: var(--red);
+}

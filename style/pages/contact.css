@@ -1,0 +1,62 @@
+@import url(/style/main.css);
+
+body {
+    background-color: var(--light-gray);
+}
+
+.visit-us h2 {
+    text-align: center;
+}
+
+.visit-us .iframe .item {
+    border: 2px solid var(--white);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: start;
+    padding: 16px;
+    gap: 16px;
+    position: relative;
+    border-radius: 12px;
+    height: auto;
+}
+
+.visit-us .iframe .item .right .h6-text {
+    padding: 32px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.visit-us .iframe .item .right .h6-text a {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-decoration: none;
+    color: var(--blue);
+}
+.visit-us .iframe .item .right .h6-text a img{
+    width: 16px;
+}
+.insurance-no-surprises .left {
+    background: var(--white);
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.insurance-no-surprises .left .text {
+    color: var(--black);
+}
+
+.insurance-no-surprises .right {
+    background-image: url(/images/Dentistry-done-right-bgr.png);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.insurance-no-surprises .right .text {
+    color: var(--white);
+}

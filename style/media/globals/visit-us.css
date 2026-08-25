@@ -1,0 +1,32 @@
+@media (max-width:1024px) and (min-width:768px) {
+ 
+
+    .visit-us .iframe .item {
+        width: 52%;
+    }
+
+    .visit-us .iframe .item2 {
+        width: 39%;
+    }
+}
+
+@media (max-width:768px) and (min-width:350px){
+
+    .visit-us .iframe .item {
+        width: 42%;
+    }
+
+    .visit-us .iframe .item2 {
+        width: 54%;
+    }
+    .visit-us .iframe {
+        display: flex;
+        flex-direction: column;
+    }
+    .visit-us .iframe .item,
+    .visit-us .iframe .item2 {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+}

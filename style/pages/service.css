@@ -1,0 +1,194 @@
+@import url(/style/main.css);
+
+.hero {
+    background-image: url(/images/hero5-bgr.png);
+}
+
+.left-right {
+    margin-top: 120px;
+}
+
+.left-right .box {
+    max-width: 1152px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-right .left {
+    width: 46.5%;
+}
+
+.left-right .right {
+    width: 46.5%;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.left-right .p {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* ----------------------insurance-no-surprises----------------------------- */
+.insurance-no-surprises {
+    margin-top: 240px;
+}
+
+.insurance-no-surprises h2 {
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 140%;
+}
+
+.insurance-no-surprises .p {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ----------------------FAQ----------------------- */
+
+#faqs {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px;
+
+}
+
+#faqs .question input {
+    display: none;
+}
+
+#faqs .question label {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+#faqs .question {
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+#faqs .question:has(input:checked)+.answer {
+    min-height: fit-content;
+    padding: 15px;
+}
+
+#faqs .question:has(input:checked) {
+    color: var(--black);
+}
+
+#faqs .question svg {
+    transform: rotate(45deg);
+}
+
+#faqs .question:has(input:checked) svg {
+    transform: rotate(0);
+}
+
+#faqs .question svg {
+    transition: 0.6s ease;
+}
+
+#faqs .answer {
+    transition: 0.6s ease;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+#faqs .faq {
+    border-top: 1px solid rgba(0, 0, 0, 0.218);
+    overflow: hidden;
+    padding-top: 24px;
+}
+#faqs .faqs{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+#faqs .answer {
+    padding: 0 15px;
+}
+#faqs .faq .question h3 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px; 
+    line-height: 120%;
+    color: var(--black);
+}
+/* --------------------Kind-words-from-our-patients--------------------------- */
+.Kind-words-from-our-patients{
+    margin-top: 120px;
+    background-color: var(--white);
+    padding: 120px 20px;
+}
+.Kind-words-from-our-patients .box{
+    max-width: 1152px;
+    margin: 0 auto;
+}
+.Kind-words-from-our-patients p.text{
+    display: flex;
+    align-items: center;
+    color: var(--black);
+}
+.Kind-words-from-our-patients p.text img{
+    width: 80px;
+    height: 16px;
+    object-fit: cover;
+}
+.Kind-words-from-our-patients .items{
+    display: flex;
+}
+.Kind-words-from-our-patients .items .item {
+    background-color: var(--white);
+    border-radius: 16px;
+    padding: 24px;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: fit-content;
+}
+
+.Kind-words-from-our-patients .item2 .img-h6 img,
+.Kind-words-from-our-patients .item3 .img-h6 img,
+.Kind-words-from-our-patients .item4 .img-h6 img,
+.Kind-words-from-our-patients .item5 .img-h6 img,
+.Kind-words-from-our-patients .item6 .img-h6 img,
+.Kind-words-from-our-patients .item7 .img-h6 img,
+.Kind-words-from-our-patients .item8 .img-h6 img,
+.Kind-words-from-our-patients .item9 .img-h6 img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.Kind-words-from-our-patients .item2 .img-h6,
+.Kind-words-from-our-patients .item3 .img-h6,
+.Kind-words-from-our-patients .item4 .img-h6,
+.Kind-words-from-our-patients .item5 .img-h6,
+.Kind-words-from-our-patients .item6 .img-h6,
+.Kind-words-from-our-patients .item7 .img-h6,
+.Kind-words-from-our-patients .item8 .img-h6,
+.Kind-words-from-our-patients .item9 .img-h6 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.Kind-words-from-our-patients .item2 p.text,
+.Kind-words-from-our-patients .item3 p.text,
+.Kind-words-from-our-patients .item4 p.text,
+.Kind-words-from-our-patients .item5 p.text,
+.Kind-words-from-our-patients .item6 p.text,
+.Kind-words-from-our-patients .item7 p.text,
+.Kind-words-from-our-patients .item8 p.text,
+.Kind-words-from-our-patients .item9 p.text {
+    color: var(--gray);
+}
+

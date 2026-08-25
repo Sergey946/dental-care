@@ -1,0 +1,18 @@
+@media (max-width:1024px) and (min-width:769px) {
+    footer .col1 {
+        width: 100%;
+    }
+    footer .col2 {
+        width: 50%;
+    }
+}
+@media (max-width:768px) {
+    footer .col1,
+    footer .col2 {
+        width: 100%;
+    }
+    footer .col3,
+    footer .col4 {
+        width: 50%;
+    }
+}

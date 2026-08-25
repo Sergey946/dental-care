@@ -1,0 +1,22 @@
+@media (max-width: 1024px) {
+    header .box {
+        max-width: 1023px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header .nav-button {
+        display: none;
+        visibility: visible;
+        appearance: none;
+    }
+
+    header .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+}

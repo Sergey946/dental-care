@@ -1,0 +1,101 @@
+.insurance-no-surprises {
+    padding: 120px 20px;
+}
+
+.insurance-no-surprises .box {
+    max-width: 1152px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.insurance-no-surprises .left img {
+    width: 35px;
+}
+
+.insurance-no-surprises .left {
+    background-image: url(/images/Dentistry-done-right-bgr.png);
+    width: 48%;
+    padding: 60px 60px 112px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: var(--white);
+    border-radius: 12px;
+    border: 3px solid var(--blue);
+}
+
+.insurance-no-surprises .left .text .h2-p {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.insurance-no-surprises .left .text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: var(--white);
+}
+
+.insurance-no-surprises .right {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    width: 48%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.09) 0%, #FFFFFF 56.14%);
+    border-radius: 12px;
+    border: 3px solid var(--white);
+}
+
+.insurance-no-surprises .right .h2-p {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.insurance-no-surprises .right .images .row1 img {
+    width: 85.06px;
+}
+
+.insurance-no-surprises .right .images .row1 {
+    display: flex;
+    width: 100%;
+
+}
+
+.insurance-no-surprises .right .row3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.insurance-no-surprises .right .images .overlay {
+    position: absolute;
+    width: 78.38px;
+    height: 100%;
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+.insurance-no-surprises .right .images .overlay {
+    position: absolute;
+    width: 78.38px;
+    height: 100%;
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+.insurance-no-surprises .right .images {
+    position: relative;
+}
+
+.insurance-no-surprises .right .images .overlay2 {
+    position: absolute;
+    width: 78px;
+    height: 100%;
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    right: 0;
+    top: 0;
+}

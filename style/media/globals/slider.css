@@ -1,0 +1,10 @@
+@media (max-width:1024px){
+    #main-slider{
+        display: none;
+    }
+}
+@media (max-width:769px) {
+    #main-slider3 {
+    --slides-to-show: 2;
+}
+}

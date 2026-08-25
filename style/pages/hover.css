@@ -1,0 +1,8 @@
+.Dental-Treatments .items .item:hover{
+    transform: translatey(-10px);
+    box-shadow: 0 0px 7px 5px rgb(0 0 0 / 13%);
+}
+.meet-the-team .item:hover{
+    transform: translatey(-10px);
+    box-shadow: 0 0px 7px 5px rgb(0 0 0 / 13%);
+}

@@ -1,0 +1,84 @@
+@import url(/style/main.css);
+
+.hero {
+    background-image: url(/images/hero3-bgr.png);
+}
+
+.price-guide {
+    background-image: url(/images/Dentistry-done-right-bgr.png);
+    padding: 20px;
+}
+
+.price-guide .box {
+    gap: 80px;
+    color: var(--white);
+    max-width: 1152px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.price-guide .row {
+    display: flex;
+    gap: 80px;
+    color: var(--white);
+    max-width: 1152px;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.price-guide .right {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.price-guide .right p.text {
+    max-width: 554px;
+    color: var(--white);
+}
+
+.price-guide .right .p {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 16px;
+}
+.price-guide .row2 .right .p p.text2{
+
+    white-space: nowrap;
+}
+.price-guide .right p.text1 {
+    max-width: 540px;
+    width: 100%;
+}
+
+.price-guide .right .p2 {
+    display: flex;
+    padding: 16px 0;
+}
+
+.price-guide .left p.text {
+    max-width: 432px;
+    color: var(--white);
+}
+
+.price-guide .left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.price-guide .row3 .left h2{
+    max-width: 432px;
+}
+footer .links .two-links1{
+    display: flex;
+    flex-direction: column;
+}
+footer .links .two-links2{
+    display: flex;
+    gap: 80px;
+}

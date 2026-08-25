@@ -1,0 +1,34 @@
+.join-our-team {
+    width: 100%;
+    background-image: url(/images/Dentistry-done-right-bgr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-top: 120px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+
+}
+
+.join-our-team .container {
+    text-align: center;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+}
+
+.join-our-team .text {
+    color: var(--white)
+}
+
+.join-our-team .container a {
+    color: var(--pure-yellow);
+}
+
+.join-our-team .container a.btn-main {
+    color: var(--black);
+}

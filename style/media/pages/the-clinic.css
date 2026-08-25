@@ -1,0 +1,32 @@
+@media (max-width:1024px) {
+    .meet-the-team .items .item .img img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-size: cover;
+    }
+}
+@media (max-width:768px) {
+    .concierge-experience-technology .left-right{ 
+       flex-direction: column;
+    }
+    .concierge-experience-technology .left-right .left,
+    .concierge-experience-technology .left-right .right{
+        width: 100%;
+    }
+}
+@media (max-width:480px) {
+    .hero .button-p a.btn-main{
+        display: none;
+    }
+    .hero .content .h1-p{
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .concierge-experience-technology .box{
+        gap: 50px !important;
+        display: flex;
+        flex-direction: column;
+    }
+}

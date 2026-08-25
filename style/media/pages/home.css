@@ -1,0 +1,250 @@
+@media (max-width: 1024px) {
+
+
+    .Dr-Brendan .h2-2 {
+        display: none;
+        visibility: visible;
+    }
+
+    .quote {
+        padding: 20px;
+    }
+
+    .Dr-Brendan {
+        padding: 20px;
+    }
+
+    .why-choose-us {
+        padding: 20px;
+    }
+
+    .why-choose-us .items .item4 {
+        width: 100% !important;
+    }
+
+    .Dental-Treatments {
+        padding: 20px;
+    }
+
+    main .col3 {
+        display: none;
+    }
+
+    .Dentistry-Done-Right .box {
+        flex-direction: column;
+    }
+
+    .Dentistry-Done-Right .left,
+    .Dentistry-Done-Right .right {
+        width: 100% !important;
+    }
+
+    .Dr-Brendan .right img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/* ----------------------media-769px-------------------- */
+@media (max-width:769px) {
+    .assessments .right .top h3 {
+        white-space: wrap !important;
+    }
+
+    .assessments .box {
+        gap: 80px;
+    }
+
+    .quote {
+        margin-top: 200px !important;
+    }
+
+    .quote .right h5 {
+        font-size: 18px;
+    }
+
+    .quote .box {
+        flex-direction: column;
+    }
+
+    .quote .left,
+    .quote .right {
+        width: 100% !important;
+    }
+
+    .quote .left img {
+        min-height: 200px;
+    }
+
+    .quote .left {
+        order: 1;
+    }
+
+    .Dental-Treatments {
+        padding: 20px;
+    }
+
+    .Dental-Treatments .items p.text {
+        max-width: 192px;
+    }
+
+    .Dental-Treatments .items {
+        gap: 16px !important;
+    }
+
+    .Dentistry-Done-Right .box {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .Dentistry-Done-Right .left p.text {
+        max-width: 660px;
+    }
+
+    .Dentistry-Done-Right .left,
+    .Dentistry-Done-Right .right {
+        width: 100% !important;
+    }
+
+    .Dentistry-Done-Right .right img {
+        min-height: 359px;
+        object-fit: cover;
+    }
+
+    .Dr-Brendan .right {
+        width: 100% !important;
+    }
+
+    .Dr-Brendan .h2-2 {
+        white-space: nowrap;
+        font-size: 69px;
+        display: block !important;
+    }
+
+    .Dr-Brendan h2:not(.h2-2) {
+        display: none;
+    }
+
+    .Dr-Brendan .left {
+        order: 1;
+        width: 100% !important;
+    }
+
+    .Dr-Brendan .box {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* --------------------media-480px-------------------- */
+@media (max-width:480px) {
+    .assessments .box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .assessments .left {
+        order: 1;
+        margin-top: 80px;
+    }
+
+    .assessments .left h2 {
+        font-size: 31px;
+    }
+
+    .assessments .right {
+        display: flex;
+        background-image: none !important;
+    }
+
+    .assessments .right .item2 {
+        display: block !important;
+        padding: 0;
+    }
+
+    .assessments .right .item2 img {
+        width: 100%;
+        padding: 0;
+        border-radius: 12px 0 0 12px;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .assessments .right .item {
+        border-radius: 0 12px 12px 0 !important;
+    }
+
+    .quote {
+        margin-top: -80px !important;
+    }
+
+    .quote .right h5 {
+        font-size: 16px !important;
+    }
+
+    .quote .left {
+        height: 100% !important;
+    }
+
+    .quote .left img {
+        height: 100% !important;
+        object-fit: cover !important;
+        background-size: cover !important;
+    }
+
+    .Dental-Treatments .items {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .Dental-Treatments .items .item {
+        display: flex !important;
+        width: 100% !important;
+    }
+
+    .Dental-Treatments .items .item img {
+        width: 100%;
+        object-fit: cover;
+        background-position: center center;
+    }
+
+    .Dental-Treatments .items p.text {
+        max-width: 100%;
+    }
+
+    .Dentistry-Done-Right h2 {
+        font-size: 31px;
+    }
+
+    .Dentistry-Done-Right .left p.text {
+        max-width: 455px !important;
+    }
+
+    .Dentistry-Done-Right .right img {
+        min-height: 100%;
+        object-fit: cover;
+    }
+
+    .Dentistry-Done-Right .right {
+        width: 100% !important;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .Dentistry-Done-Right .box{
+        padding:50px 39px !important;
+    }
+    .Dr-Brendan .h2-2 {
+        font-size: 59px;
+    }
+
+    main .col2 {
+        display: none;
+    }
+    .meet-the-team .item{
+        width: 100% !important;
+    }
+    .kid-friendly {
+        min-height: 700px !important;
+    }
+}

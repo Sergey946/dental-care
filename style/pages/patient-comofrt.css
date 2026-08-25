@@ -1,0 +1,162 @@
+@import url(/style/main.css);
+
+.hero {
+    background-image: url(/images/hero6-bgr.png);
+
+}
+
+.div-text {
+    padding: 120px 20px 0 20px;
+}
+
+.div-text .box {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-text h2 {
+    max-width: 720px;
+
+}
+
+.div-text .container .p {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.div-text .container p.text {
+    max-width: 720px;
+    color: var(--gray);
+}
+
+/*-----------------------------------left-right----------------------------- */
+.left-right {
+    margin-top: 120px;
+}
+
+.left-right .box {
+    max-width: 1152px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+}
+
+.left-right .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-right .left {
+    width: 46.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.left-right .left .p {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-right .right1 {
+    width: 46.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.left-right .right {
+    width: 100%;
+    padding: 16px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.3) 100%);
+    border: 2px solid var(--white);
+}
+
+.left-right .right1 .p {
+    padding-left: 20px;
+    border-left: 3px solid var(--blue);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.left-right .right1 .p p.text {
+    font-style: italic;
+}
+.Kind-words-from-our-patients{
+    margin-top: 120px;
+    background-color: var(--white);
+    padding: 120px 20px;
+}
+/* -----------------------------Kind-words-from-our-patients------------------------------ */
+.Kind-words-from-our-patients .box{
+    max-width: 1152px;
+    margin: 0 auto;
+}
+.Kind-words-from-our-patients p.text{
+    display: flex;
+    align-items: center;
+    color: var(--black);
+}
+.Kind-words-from-our-patients p.text img{
+    width: 80px;
+    height: 16px;
+    object-fit: cover;
+}
+.Kind-words-from-our-patients .items{
+    display: flex;
+}
+.Kind-words-from-our-patients .items .item {
+    background-color: var(--white);
+    border-radius: 16px;
+    padding: 24px;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: fit-content;
+}
+
+.Kind-words-from-our-patients .item2 .img-h6 img,
+.Kind-words-from-our-patients .item3 .img-h6 img,
+.Kind-words-from-our-patients .item4 .img-h6 img,
+.Kind-words-from-our-patients .item5 .img-h6 img,
+.Kind-words-from-our-patients .item6 .img-h6 img,
+.Kind-words-from-our-patients .item7 .img-h6 img,
+.Kind-words-from-our-patients .item8 .img-h6 img,
+.Kind-words-from-our-patients .item9 .img-h6 img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.Kind-words-from-our-patients .item2 .img-h6,
+.Kind-words-from-our-patients .item3 .img-h6,
+.Kind-words-from-our-patients .item4 .img-h6,
+.Kind-words-from-our-patients .item5 .img-h6,
+.Kind-words-from-our-patients .item6 .img-h6,
+.Kind-words-from-our-patients .item7 .img-h6,
+.Kind-words-from-our-patients .item8 .img-h6,
+.Kind-words-from-our-patients .item9 .img-h6 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.Kind-words-from-our-patients .item2 p.text,
+.Kind-words-from-our-patients .item3 p.text,
+.Kind-words-from-our-patients .item4 p.text,
+.Kind-words-from-our-patients .item5 p.text,
+.Kind-words-from-our-patients .item6 p.text,
+.Kind-words-from-our-patients .item7 p.text,
+.Kind-words-from-our-patients .item8 p.text,
+.Kind-words-from-our-patients .item9 p.text {
+    color: var(--gray);
+}

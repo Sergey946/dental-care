@@ -1,0 +1,146 @@
+@import url(globals/header.css);
+@import url(globals/footer.css);
+@import url(globals/hero.css);
+@import url(globals/visit-us.css);
+@import url(globals/cta.css);
+@import url(globals/slider.css);
+@import url(/style/globals/join-our-team.css);
+@import url(/style/globals/insurance-no-surprises.css);
+@import url(/style/pages/patient-comofrt.css);
+@import url(/style/pages/mobile-menu.css);
+@import url(/style/pages/hover.css);
+@import url(/style/media/main.css);
+
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: var(--light-gray);
+}
+
+:root {
+  --blue: #1BA2BB;
+  --pure-yellow: #FBFFA1;
+  --white: #ffffff;
+  --gray: #666666;
+  --black: #222222;
+  --light-gray: #F1F2F2;
+  --red: #EA4336;
+}
+
+h1 {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+h2 {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+h3 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  color: #222222;
+}
+
+h6 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+a {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: unset;
+  text-decoration: none;
+}
+
+.text {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.text-big {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+a.btn {
+  padding: 16px 24px;
+  width: fit-content;
+  border-radius: 2px;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btn.btn-main {
+  background-color: var(--white);
+  outline: 5px solid rgba(255, 255, 255, 0.2);
+  color: var(--black);
+}
+
+a.btn.btn-secondary {
+  background-color: var(--blue);
+  outline: 5px solid rgba(27, 163, 187, 0.2);
+  color: var(--white);
+}
+
+a.btn.btn-cta {
+  background-color: var(--pure-yellow);
+  outline: 5px solid rgba(250, 255, 161, 0.2);
+  color: var(--black);
+}
+
+
+ul.bullet-yellow {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+ul.bullet-yellow p.text {
+  display: flex;
+  gap: 12px;
+}
+
+ul.bullet-yellow p.text::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url(/images/ptichka.svg);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

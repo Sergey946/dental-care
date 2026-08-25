@@ -1,0 +1,104 @@
+footer {
+    background-color: var(--blue);
+    padding: 90px 20px 60px 20px;
+    color: var(--white);
+}
+
+footer .box {
+    max-width: 1152px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+footer .top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+footer .col1 {
+    width: 28%;
+}
+
+footer .col2 {
+    width: 28%;
+}
+
+footer .col3 {
+    width: 12%;
+}
+
+footer .col4 {
+    width: 12%;
+}
+
+
+footer .icons img {
+    width: 24px;
+}
+
+footer .icons {
+    display: flex;
+    gap: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 24px;
+}
+
+
+footer .hours {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+footer .hours .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .hours .row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .hours .row2 p.text {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+footer .link3 .as,
+footer .link4 .as {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .link3 a,
+footer .link4 a {
+    text-decoration: none;
+}
+
+footer .link3,
+footer .link4 {
+    width: 19%;
+    white-space: nowrap;
+}
+
+footer .two-links {
+    display: flex;
+    gap: 48px;
+}
+
+footer .two-links2 {
+    gap: 142px;
+}
+
+footer .links .icons2 {
+    visibility: hidden;
+}
+footer .col1 p.text,
+footer .col2 p.text{
+    color: var(--white);
+}

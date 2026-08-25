@@ -1,0 +1,19 @@
+@media (max-width:1024px) {
+    .price-guide .row .right{
+        width: 46.4%;
+    }
+}
+
+@media (max-width:480px) {
+    .price-guide .row {
+        flex-direction: column;
+        width: 100%;
+    }
+    .price-guide .box{
+        flex-direction: column;
+    }
+    .price-guide .row .left,
+    .price-guide .row .right {
+        width: 100%;
+    }
+}
