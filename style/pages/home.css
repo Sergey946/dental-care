@@ -6,6 +6,7 @@ img {
 }
 
 .hero {
+    min-height: 597px;
     background-image: url(/images/hero-bgr.png);
 }
 
