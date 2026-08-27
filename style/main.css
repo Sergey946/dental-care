@@ -108,18 +108,21 @@ a.btn.btn-main {
   background-color: var(--white);
   outline: 5px solid rgba(255, 255, 255, 0.2);
   color: var(--black);
+  transition: 0.3s ease;
 }
 
 a.btn.btn-secondary {
   background-color: var(--blue);
   outline: 5px solid rgba(27, 163, 187, 0.2);
   color: var(--white);
+  transition: 0.3s ease;
 }
 
 a.btn.btn-cta {
   background-color: var(--pure-yellow);
   outline: 5px solid rgba(250, 255, 161, 0.2);
   color: var(--black);
+  transition: 0.3s ease;
 }
 
 
@@ -144,3 +147,15 @@ ul.bullet-yellow p.text::before {
   background-size: cover;
 }
 
+a.btn.btn-secondary:hover{
+  background-color: rgb(8, 120, 140);
+  outline: 5px solid rgba(3, 75, 87, 0.2);
+}
+a.btn.btn-cta:hover{
+  background-color: rgb(245, 255, 109);
+  outline: 5px solid rgba(242, 255, 63, 0.2);
+}
+a.btn.btn-main:hover{
+  background-color: rgb(220 242 255);
+  outline: 5px solid rgba(109, 109, 109, 0.2);
+}
