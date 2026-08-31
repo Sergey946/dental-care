@@ -152,7 +152,7 @@ a.btn.btn-secondary:hover{
   outline: 5px solid rgba(3, 75, 87, 0.2);
 }
 a.btn.btn-cta:hover{
-  background-color: rgb(244, 243, 160);
+  background-color: rgb(249, 255, 122);
   outline: 5px solid rgba(242, 255, 63, 0.2);
 }
 a.btn.btn-main:hover{
