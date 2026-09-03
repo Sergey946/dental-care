@@ -384,13 +384,35 @@ body {
     color: var(--white);
 }
 
+
 .Dentistry-Done-Right .img img {
     width: 226px;
+    height: 226px;
     position: absolute;
     bottom: 0;
     right: 0;
 }
-
+.Dentistry-Done-Right .img {
+    width: 226px;
+    height: 226px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--white);
+    border-radius: 50%;
+}
+.Dentistry-Done-Right .img .rotate{
+    animation-name: img-rotate;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+    
+}
+@keyframes img-rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
 /* --------------------------------dr.brendan-------------------------- */
 .Dr-Brendan {
     padding-top: 120px;
