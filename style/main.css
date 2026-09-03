@@ -159,3 +159,41 @@ a.btn.btn-main:hover{
   background-color: rgb(220 242 255);
   outline: 5px solid rgba(109, 109, 109, 0.2);
 }
+body>div {
+  --section-trigger: --t;
+  timeline-trigger: var(--section-trigger) view();
+  animation-range: exit 30%;
+}
+body>div>div:nth-child(1) {
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
+  opacity: 0;
+  animation: revealFromLeft 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation-delay: .2s;
+  animation-trigger: var(--section-trigger) play-once;
+}
+
+body>div>div:nth-child(2) {
+  opacity: 0;
+  transform: translatey(100px);
+  animation: revealFromRight 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation-delay: .2s;
+  animation-trigger: var(--section-trigger) play-once;
+}
+
+@keyframes revealFromLeft {
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    /* opacity: 1;
+    transform: translateY(0); */
+  }
+}
+
+@keyframes revealFromRight {
+  to {
+    opacity: 1;
+    transform: translatey(0);
+  }
+}
